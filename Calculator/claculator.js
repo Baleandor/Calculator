@@ -154,9 +154,9 @@ class Calculator {
             this.specialTextEdit(number).style.textDecoration = 'line-through';
             clearInterval(mineInterval);
 
-            if (document.getElementById('weed').style.textDecoration == 'line-through' ||
-                document.getElementById('oppai').style.textDecoration == 'line-through' ||
-                document.getElementById('nice').style.textDecoration == 'line-through' ||
+            if (document.getElementById('weed').style.textDecoration == 'line-through' &&
+                document.getElementById('oppai').style.textDecoration == 'line-through' &&
+                document.getElementById('nice').style.textDecoration == 'line-through' &&
                 document.getElementById('ohno').style.textDecoration == 'line-through') {
 
                 spec = document.querySelector('.special').style.filter = 'blur(20px)';
