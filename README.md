@@ -1,1 +1,1 @@
-# Portfolio
+This is a calculator that executes simple calculations. When a result from the 'Special Numbers' list is obtained, it will display something on screen. Something else is displayed when all 'Special Numbers' have been displayed. 
